@@ -30,6 +30,4 @@ public class LottoController {
         }
         return lottoTickets;
     }
-
-
 }
