@@ -1,15 +1,16 @@
 package view;
 
-import model.Lotto;
+import dto.LottoNumberResponseDto;
 
 import java.util.List;
 
 public class ResultView {
 
-    public static void printLottoResult(List<Lotto> tickets) {
+    public static void printLottoResult(List<LottoNumberResponseDto> tickets) {
         System.out.println(tickets.size() + "개를 구매했습니다.");
-        for (Lotto ticket : tickets) {
+        for (LottoNumberResponseDto ticket : tickets) {
             System.out.println(ticket.getSortedLottoNumbers());
         }
     }
+
 }

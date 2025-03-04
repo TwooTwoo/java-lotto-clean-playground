@@ -8,10 +8,12 @@ public class InputView {
 
     public static int purchaseAmountTitle() {
         System.out.println("구입금액을 입력해 주세요.\n");
+
         return scanner.nextInt();
     }
 
     public static void closeScanner() {
         scanner.close();
     }
+
 }
